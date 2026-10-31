@@ -7,8 +7,12 @@ Drop a folder of music on the window, check the results, and press Apply.
 
 - **Key and BPM:** each track gets a Camelot key (8A) or a musical key (Am), a tempo, and an energy estimate from 1 to 10.
 - **Tags and names:** Apply writes the key, BPM, artist and title that rekordbox, Serato, Traktor and Mixxx read, and can rename files to `8A - 124 - Artist - Title.mp3`.
-- **Cue points:** it can make hot cues or memory cues for rekordbox.
-- **Track editor:** hear a track, and set its beat grid and cues by ear.
+- **Beat grids:** a grid for every track, written for rekordbox, which follows the tempo when a track speeds up or slows down.
+- **Cue points:** hot cues A to H, memory cues, loops and cue comments for rekordbox.
+- **Waveforms, phrases, loudness and vocals:** a coloured waveform per track, its phrases (Intro, Up, Chorus, Down, Outro), its loudness, and a hint of where the vocals are.
+- **Track editor:** hear a track, and set its beat grid, cues and phrases by ear.
+- **Library:** playlists, folders and intelligent playlists, with rating, colour, genre, label, year and My Tag, imported from rekordbox, Apple Music or playlist files if you like.
+- **Export to USB:** write a stick that CDJ and XDJ players read, with no rekordbox needed (new, see below).
 - **Cover art:** tracks with no cover can get one looked up online.
 - **Undo:** **Undo last Apply** puts the old names and tags back.
 
@@ -131,6 +135,43 @@ Then after each Apply:
 3. Right-click and choose **Import To Collection**.
 4. If rekordbox says a track already exists, choose **Yes** to give it these cues.
 
+## Your library
+
+Every track you analyse joins your library, which stays between sessions.
+The sidebar's **Library** page shows **This batch** (what you added since opening the window), **Collection** (everything), and your own folders and playlists.
+Apply works on what the table shows, so a batch is how you tag a few new tracks without touching the rest.
+
+- **Playlists and folders:** press **New playlist** or **New folder**, then drag tracks onto them. Drag folders and playlists to rearrange them.
+- **Intelligent playlists:** press **New intelligent playlist** and set its filters, as in rekordbox, for example BPM above 125 and key 8A. It keeps itself up to date.
+- **Track details:** rating, colour, genre, label, year, comment and My Tag, in the table and in what goes to rekordbox.
+- **Import:** **Import playlists...** brings in a rekordbox XML (tracks, playlists, cues and grids), an Apple Music library export, or M3U, PLS and TXT playlists.
+- **Related tracks:** the tab under the table lists what goes with the selected track, such as tracks that mix in key or sit near its tempo.
+- **Missing files and duplicates:** **Library > Missing files...** finds tracks whose files moved and points them at their new place. **Library > Find duplicates...** groups copies of the same song. Nothing is deleted without asking.
+- **Backup:** **Library > Back up library...** saves everything Pat In Key keeps about your library in one zip, and **Library > Restore library...** brings it back.
+
+## Track editor
+
+Select a track and press Space, or **Edit track**, to open the editor. Esc goes back to the table.
+
+- **Play** runs the track. Click the waveform to move the playhead, and zoom with **+** and **-**.
+- **Click** adds a metronome, so you can hear whether the grid sits on the beat.
+- **BPM**, **/ 2**, **x 2**, **Tap**, **-5 ms** and **+5 ms**, **Beat here** and **Bar here** fix the grid.
+- Add, move and name cues, and cut, relabel or clear phrases.
+- Every change is kept in the track's history and can be undone.
+
+While Apply or Undo is writing files, the editor waits for it to finish.
+
+## Export to USB
+
+**Export to USB...** in the sidebar writes the table's tracks to a stick that CDJ and XDJ players read, with their grids, cues, waveforms and phrases, and no rekordbox involved.
+It is made for the XDJ-RX3 and CDJ-3000.
+
+**It is new.** No real player has read a Pat In Key stick yet, so use a spare stick with nothing on it you need.
+The [USB stick test kit](USB-TEST-KIT.md) shows how to make a test stick, and has a page to send a friend who tries it on their player.
+
+It keeps your stick safe: you choose the stick yourself, only removable drives are offered, nothing is ever formatted, and a stick that already holds a rekordbox library is refused.
+Tracks a player cannot play (Opus, Ogg, WMA) stay off the stick, and the dialog says why.
+
 ## Updating
 
 You do not need to come back here for new versions.
@@ -147,6 +188,8 @@ When one is out, the app says so as it opens.
 An update waits for a running analysis or Apply to finish.
 A restart empties the table, so if it holds tracks you have not applied, the app asks once more first.
 Apply first to keep any names you fixed.
+
+After updating from 1.1.0, each track is analysed once more the first time you open it, to add its waveform, phrases, loudness and vocals.
 
 To look for an update yourself, choose **Check for updates** in the **Pat In Key** menu on a Mac, or the **Help** menu on Windows.
 **Check for updates at launch**, in the same menu, turns the automatic look off.
@@ -171,10 +214,5 @@ Your music keeps its tags and names.
 Pat In Key is free software under the GNU AGPL-3.0.
 Its licences and source code travel with the app: in the `licenses` and `source` folders on Windows, and inside the app on a Mac, under `Contents/Resources`.
 
-The screenshots show generated test tones, on a Mac.
+The screenshots show generated test tones, on a Mac, and some still show version 1.1.0.
 The Windows window is the same, with its menu above the heading.
-
-## USB stick test kit
-
-Pat In Key 1.2.0 can write a USB stick that CDJ and XDJ players read, with no rekordbox needed.
-It is new, so use a spare stick, and follow the [USB stick test kit](USB-TEST-KIT.md) for making a stick and the page to send a friend who tries it on their player.
