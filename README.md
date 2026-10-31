@@ -8,6 +8,7 @@ Drop a folder of music on the window, check the results, and press Apply.
 - **Key and BPM:** each track gets a Camelot key (8A) or a musical key (Am), a tempo, and an energy estimate from 1 to 10.
 - **Tags and names:** Apply writes the key, BPM, artist and title that rekordbox, Serato, Traktor and Mixxx read, and can rename files to `8A - 124 - Artist - Title.mp3`.
 - **Cue points:** it can make hot cues or memory cues for rekordbox.
+- **Track editor:** hear a track, and set its beat grid and cues by ear.
 - **Cover art:** tracks with no cover can get one looked up online.
 - **Undo:** **Undo last Apply** puts the old names and tags back.
 
@@ -109,10 +110,10 @@ Leave **KEY** unticked in rekordbox's **Preferences > Analysis** and in any Anal
 ### Cue points for rekordbox
 
 Tick **Make rekordbox cues** and choose **Hot cues** or **Memory cues**.
-The **Cues** column then shows where each cue will go.
+The **Waveform** column then shows each track's waveform with where each cue will go.
 Audio files are not changed for this: Apply writes the cues to a file for rekordbox to import.
 
-![The Cues column, showing five cues on each track's timeline](images/03-cues.png)
+![The Waveform column, showing five cues over each track's waveform](images/03-cues.png)
 
 If your tracks are already in rekordbox, export your collection first (**File > Export Collection in xml format**) and pick it with **Choose XML**.
 Pat In Key can then see the cues you set, and leaves those tracks alone.
@@ -172,3 +173,8 @@ Its licences and source code travel with the app: in the `licenses` and `source`
 
 The screenshots show generated test tones, on a Mac.
 The Windows window is the same, with its menu above the heading.
+
+## USB stick test kit
+
+Pat In Key 1.2.0 can write a USB stick that CDJ and XDJ players read, with no rekordbox needed.
+It is new, so use a spare stick, and follow the [USB stick test kit](USB-TEST-KIT.md) for making a stick and the page to send a friend who tries it on their player.
