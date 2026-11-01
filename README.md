@@ -10,6 +10,7 @@ Drop a folder of music on the window, check the results, and press Apply.
 - **Beat grids:** a grid for every track, written for rekordbox, which follows the tempo when a track speeds up or slows down.
 - **Cue points:** hot cues A to H, memory cues, loops and cue comments for rekordbox.
 - **Waveforms, phrases, loudness and vocals:** a coloured waveform per track, its phrases (Intro, Up, Chorus, Down, Outro), its loudness, and a hint of where the vocals are.
+- **Track list:** search it, choose its columns and row height, and press Space to hear the selected track.
 - **Track editor:** hear a track, and set its beat grid, cues and phrases by ear.
 - **Library:** playlists, folders and intelligent playlists, with rating, colour, genre, label, year and My Tag, imported from rekordbox, Apple Music or playlist files if you like.
 - **Export to USB:** write a stick that CDJ and XDJ players read, with no rekordbox needed (new, see below).
@@ -97,15 +98,24 @@ Before your first real run, try it on a copy of 20 or 30 tracks you know well, a
 
 **Renaming and your DJ library:** rekordbox, Serato and Traktor find tracks by file name and folder.
 If you rename tracks already in your collection, they show as missing there until you relink them.
-Run Pat In Key on new tracks before you import them, and for tracks already in your library, untick **Rename files** and only write tags.
+Run Pat In Key on new tracks before you import them, and for tracks already in your library, untick **Rename files** in **Settings** and only write tags.
 
 1. **Add tracks.** Drag tracks or whole folders onto the window, or use **Add files** or **Add folder**. Each track is analysed straight away, and results are remembered, so adding the same file again is instant.
-2. **Pick a key format.** Choose **Camelot (8A)** or **Musical (Am)** in the sidebar.
-3. **Check the table.** A flag in the **Check** column marks a track worth a listen; press the **?** beside that heading for what each flag means. Double-click an artist or title to fix it, or select it and press Return on a Mac or F2 on Windows.
+2. **Open Settings.** **Settings...** at the top of the sidebar opens them in their own window, as does Cmd+comma on a Mac or Ctrl+comma on Windows. A change takes effect at once.
+3. **Pick a key format.** Choose **Camelot (8A)** or **Musical (Am)**.
 4. **Choose what Apply does.** **Write tags** and **Rename files** are on to start with. Pick your BPM range too: the first setting suits house and D&B, and **Hip-hop / downtempo** suits slower crates.
-5. **Press Apply.** A message says what is about to change, and the table then shows each track as applied. **Undo last Apply** puts the old names and tags back.
+5. **Check the table.** A flag in the **Check** column marks a track worth a listen; press the **?** beside that heading for what each flag means. Press Space to hear the selected track, and Space again to pause it. Double-click a title to fix it, or select the track and press Return on a Mac or F2 on Windows. The artist sits beside the title: double-click it to fix it, or where it says *Add artist*.
+6. **Press Apply.** A message says what is about to change, and the line under the heading then says what Apply did. **Undo last Apply**, the round arrow beside **Export to USB...**, puts the old names and tags back.
 
-![The table after Apply, with each track marked applied](images/04-applied.png)
+![Settings: key format, BPM range, file names, what Apply does and the rekordbox collection](images/09-settings.png)
+
+![The table after Apply, with each track's cues ready for rekordbox](images/04-applied.png)
+
+**Finding your way round the table:**
+
+- **Search:** type in the box over the table, or press Cmd+F on a Mac or Ctrl+F on Windows, to show only the tracks that match every word, by title, artist, file name, key, BPM, genre, label or comment. Esc clears it.
+- **Columns:** right-click a column heading, or open **View > Columns**, to show or hide a column. Drag a heading to move it, and drag the line between two headings to resize. **Reset columns** puts them back.
+- **Rows:** **View > Rows** switches between compact rows, one line each, and comfortable rows, with the artist under the title and the old file name under the new one.
 
 After Apply, your DJ app needs to read the tags again.
 In rekordbox, select the tracks, right-click and choose **Reload Tags**.
@@ -113,19 +123,19 @@ Leave **KEY** unticked in rekordbox's **Preferences > Analysis** and in any Anal
 
 ### Cue points for rekordbox
 
-Tick **Make rekordbox cues** and choose **Hot cues** or **Memory cues**.
-The **Waveform** column then shows each track's waveform with where each cue will go.
+In **Settings**, tick **Make rekordbox cues** and choose **Hot cues** or **Memory cues**.
+The **Waveform** column then shows each track's waveform with where each cue will go, and comfortable rows count the cues under it.
 Audio files are not changed for this: Apply writes the cues to a file for rekordbox to import.
 
-![The Waveform column, showing five cues over each track's waveform](images/03-cues.png)
+![Comfortable rows, with five cues over each track's waveform](images/03-cues.png)
 
-If your tracks are already in rekordbox, export your collection first (**File > Export Collection in xml format**) and pick it with **Choose XML**.
+If your tracks are already in rekordbox, export your collection first (**File > Export Collection in xml format**) and pick it with **Choose XML...** in **Settings**.
 Pat In Key can then see the cues you set, and leaves those tracks alone.
 Without it, importing a track replaces its cues.
 
 To set up rekordbox once:
 
-1. In **Preferences > Advanced > Database > rekordbox xml**, set **Imported Library** to the cue file. **Show cue file** in the app shows you where it is.
+1. In **Preferences > Advanced > Database > rekordbox xml**, set **Imported Library** to the cue file. **Show cue file** in the app's **Settings** shows you where it is.
 2. In **Preferences > View > Layout**, turn on **rekordbox xml**.
 
 Then after each Apply:
@@ -138,32 +148,40 @@ Then after each Apply:
 ## Your library
 
 Every track you analyse joins your library, which stays between sessions.
-The sidebar's **Library** page shows **This batch** (what you added since opening the window), **Collection** (everything), and your own folders and playlists.
+The sidebar's **Library** shows **This batch** (what you added since opening the window), **Collection** (everything), and your own folders and playlists.
 Apply works on what the table shows, so a batch is how you tag a few new tracks without touching the rest.
 
-- **Playlists and folders:** press **New playlist** or **New folder**, then drag tracks onto them. Drag folders and playlists to rearrange them.
-- **Intelligent playlists:** press **New intelligent playlist** and set its filters, as in rekordbox, for example BPM above 125 and key 8A. It keeps itself up to date.
+![A playlist in the library, with its related tracks in the panel beside the table](images/07-library.png)
+
+- **Playlists and folders:** press **New...** under **Library** and choose **New playlist** or **New folder**, then drag tracks onto them. Drag folders and playlists to rearrange them.
+- **Intelligent playlists:** choose **New intelligent playlist** from **New...** and set its filters, as in rekordbox, for example BPM above 125 and key 8A. It keeps itself up to date.
 - **Track details:** rating, colour, genre, label, year, comment and My Tag, in the table and in what goes to rekordbox.
 - **Import:** **Import playlists...** brings in a rekordbox XML (tracks, playlists, cues and grids), an Apple Music library export, or M3U, PLS and TXT playlists.
-- **Related tracks:** the tab under the table lists what goes with the selected track, such as tracks that mix in key or sit near its tempo.
+- **Related tracks:** the **Related tracks** tab over the right of the table opens a panel beside it, listing what goes with the selected track, such as tracks that mix in key or sit near its tempo. **Track suggestion** and **Hot cue banks** open there too. Press the tab again, or the panel's X, to close it.
 - **Missing files and duplicates:** **Library > Missing files...** finds tracks whose files moved and points them at their new place. **Library > Find duplicates...** groups copies of the same song. Nothing is deleted without asking.
 - **Backup:** **Library > Back up library...** saves everything Pat In Key keeps about your library in one zip, and **Library > Restore library...** brings it back.
 
 ## Track editor
 
-Select a track and press Space, or **Edit track**, to open the editor. Esc goes back to the table.
+Select a track and press E, double-click its waveform or cover, or press **Edit track**, to open the editor.
+Return opens it too on Windows, and Cmd+Down on a Mac.
+The back arrow or Esc goes back to the table.
 
-- **Play** runs the track. Click the waveform to move the playhead, and zoom with **+** and **-**.
-- **Click** adds a metronome, so you can hear whether the grid sits on the beat.
-- **BPM**, **/ 2**, **x 2**, **Tap**, **-5 ms** and **+5 ms**, **Beat here** and **Bar here** fix the grid.
+![The track editor, with the beat grid, five cues and the track's phrases](images/08-editor.png)
+
+The editor's buttons show icons, as a player's do. Hover over one for its name and key.
+
+- **Play**, the round white button, runs the track, and Space plays or pauses. Click the waveform to move the playhead, and zoom with the magnifier buttons or **+** and **-**.
+- **Click**, the metronome button, adds a metronome, so you can hear whether the grid sits on the beat.
+- **BPM**, **÷2**, **×2**, **Tap**, the two arrows (5 ms earlier or later), **Beat here**, **Bar here** and **Turns** fix the grid.
 - Add, move and name cues, and cut, relabel or clear phrases.
-- Every change is kept in the track's history and can be undone.
+- Every change is kept at once. **Undo**, **Redo** and **History**, the round arrows and the clock beside the key, take changes back.
 
 While Apply or Undo is writing files, the editor waits for it to finish.
 
 ## Export to USB
 
-**Export to USB...** in the sidebar writes the table's tracks to a stick that CDJ and XDJ players read, with their grids, cues, waveforms and phrases, and no rekordbox involved.
+**Export to USB...** beside **Apply** writes the table's tracks to a stick that CDJ and XDJ players read, with their grids, cues, waveforms and phrases, and no rekordbox involved.
 It is made for the XDJ-RX3 and CDJ-3000.
 
 **It is new.** No real player has read a Pat In Key stick yet, so use a spare stick with nothing on it you need.
@@ -171,6 +189,8 @@ The [USB stick test kit](USB-TEST-KIT.md) shows how to make a test stick, and ha
 
 It keeps your stick safe: you choose the stick yourself, only removable drives are offered, nothing is ever formatted, and a stick that already holds a rekordbox library is refused.
 Tracks a player cannot play (Opus, Ogg, WMA) stay off the stick, and the dialog says why.
+
+![The export dialog with a stick chosen](usb-test-kit/02-export.png)
 
 ## Updating
 
@@ -214,5 +234,5 @@ Your music keeps its tags and names.
 Pat In Key is free software under the GNU AGPL-3.0.
 Its licences and source code travel with the app: in the `licenses` and `source` folders on Windows, and inside the app on a Mac, under `Contents/Resources`.
 
-The screenshots show generated test tones, on a Mac, and some still show version 1.1.0.
-The Windows window is the same, with its menu above the heading.
+The screenshots show generated test tones, on a Mac.
+The Windows window is the same, with its menus above the heading.

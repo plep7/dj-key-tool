@@ -50,7 +50,7 @@ All are 44.1 kHz.
 
    ![Pat In Key with the six test tracks](usb-test-kit/01-tracks.png)
 
-3. Press **Export to USB...** in the sidebar, and type `Pat In Key test` as the playlist name.
+3. Press **Export to USB...** beside **Apply**, and type `Pat In Key test` as the playlist name.
 4. Click your stick in the list.
    Pat In Key never chooses one for you, even when only one is plugged in.
 
