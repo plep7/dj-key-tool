@@ -9,9 +9,10 @@ Drop a folder of music on the window, check the results, and press Apply.
 - **Tags and names:** Apply writes the key, BPM, artist and title that rekordbox, Serato, Traktor and Mixxx read, and can rename files to `8A - 124 - Artist - Title.mp3`.
 - **Beat grids:** a grid for every track, written for rekordbox, which follows the tempo when a track speeds up or slows down.
 - **Cue points:** hot cues A to H, memory cues, loops and cue comments for rekordbox.
-- **Waveforms, phrases, loudness and vocals:** a coloured waveform per track, its phrases (Intro, Up, Chorus, Down, Outro), its loudness, and a hint of where the vocals are.
+- **Waveforms, phrases, loudness and vocals:** a coloured waveform per track, its phrases (Intro, Verse, Build, Drop, Chorus, Groove, Break, Bridge, Outro), its loudness, and a hint of where the vocals are.
 - **Track list:** search and filter it, sort it by several columns, choose its columns and row height, and press Space to hear the selected track.
 - **Track editor:** hear a track, and set its beat grid, cues and phrases by ear.
+- **Automix:** builds a set from your tracks in an order that mixes, lets you hear each transition, plays the set live as one mix, or renders it to one file (new, see below).
 - **Library:** playlists, folders, matchlists and favourites, with rating, colour, genre, label, year and My Tag, imported from rekordbox, Apple Music or playlist files if you like.
 - **Export to USB:** write a stick that CDJ and XDJ players read, with no rekordbox needed (new, see below).
 - **Sync:** send your playlists to Serato, Traktor or Engine DJ (new, see below).
@@ -189,6 +190,34 @@ Press it, or Cmd+J on a Mac or Ctrl+J on Windows, to see each job with its progr
 A dot on the button means a finished job has something for you, such as results to open.
 Cancel never leaves a file half done.
 
+## Automix
+
+Automix builds a set for you: it picks tracks that mix and puts them in an order where each one leads into the next.
+
+![The New Automix window, building a set from the whole collection](images/10-automix-new.png)
+
+1. Under **Library**, press **New...** and choose **New Automix...**.
+   You can also right-click a playlist and choose **New Automix from this...**, or select some tracks, right-click and choose **New Automix from the selected...**.
+2. Choose what to build from: your whole collection, a playlist, or the tracks you selected.
+3. Set how long the set should be, in tracks or minutes, or tick **Use every track, only ordered** to keep every track and only put them in order.
+4. If you like, pick a track to start with, one to end with, tracks it must include, and the shape of the energy through the set.
+5. Press **Build**. The set appears as a playlist, ready to reorder, write to rekordbox or export to USB like any other.
+
+It weighs each step on key (round the Camelot wheel), tempo, energy, how alike the tracks sound, and voices: it keeps a vocal from landing on another.
+**Safe** keeps to the key moves every DJ knows; **Adventurous** adds energy boosts where the set builds.
+
+![An Automix playlist with its set flow above the table and one transition open under it](images/11-automix.png)
+
+- **Set flow:** the strip over the table shows each track's key, energy and tempo in order. Under each step, a dot mixes well, a ring is a bold move and a cross clashes. Hover over a mark to read why.
+- **Find a bridge:** double-click a step's mark to list tracks that could go between those two.
+- **Locked in place and Regenerate:** right-click a track and tick **Locked in place** to keep it where it is, then press **Regenerate** for another order around it.
+- **Preview transition:** hear any step of the set before you play it out. Each mix starts and ends on the music's phrases, and it picks a style per pair: a bass swap, a filter sweep, an echo-out, a hard cut, a double drop or a loop out. Change the style or length, and nudge the incoming track by a beat or a few milliseconds, if your ears say so. What you set is kept.
+- **Play live:** plays the whole set as one continuous mix, from the selected track or the top. Skip mixes into the next track at the next phrase, and you can reorder the playlist while it plays.
+- **Export mix...:** renders the whole set to one MP3, FLAC or WAV file, or writes it to rekordbox with a memory cue at each mix in, mix out and bass swap.
+
+**It is new.** Automix plans every mix from the analysis and lines up the kicks by listening to each blend, but few of its mixes have been judged by ear yet.
+Listen to a transition before you trust it in front of a crowd, and tell us when one sounds wrong.
+
 ## Track editor
 
 Select a track and press E, double-click its waveform or cover, or press **Edit track**, to open the editor.
@@ -262,7 +291,8 @@ An update waits for a running analysis or Apply to finish.
 A restart empties the table, so if it holds tracks you have not applied, the app asks once more first.
 Apply first to keep any names you fixed.
 
-After updating to 1.3.0, each track is analysed once more the first time it shows in the table, when you add it or open a playlist or the Collection that holds it, so Track suggestion can hear what it sounds like.
+After updating to 1.4.0, each track is analysed once more from its audio the first time it shows in the table, when you add it or open a playlist or the Collection that holds it.
+This finds bar one, phrases and sections better, which Automix mixes on.
 Open **Collection** once to do your whole library in one go.
 
 To look for an update yourself, choose **Check for updates** in the **Pat In Key** menu on a Mac, or the **Help** menu on Windows.
