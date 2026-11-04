@@ -80,7 +80,8 @@ To see which build a stick came from, read `Pat In Key build.txt` at its root.
 Make sure the build has beat grids.
 Without them Pat In Key warns that tracks have no beat grid when the export ends, and steps 5 and 10 below cannot work.
 `Pat In Key build.txt` should also say `Phrases: 6`, or step 13 has nothing to show.
-On each test track the phrases run Intro, Chorus, Up, Chorus, Outro, changing where pads B to E land.
+On each test track the phrases run Intro, Groove, Build, Drop, Outro, changing where pads B to E land.
+On a player they show as rekordbox's Intro, Chorus, Up, Chorus, Outro.
 
 ### After a round
 
@@ -126,7 +127,7 @@ People testing similar sticks have needed nothing more than that.
 | 3 | Load track 1 | Do the title, artist, BPM, key and picture look right? | Yes |
 | 4 | Look at the waveform | In colour straight away, or plain first and colour a bit later? | Yes |
 | 5 | Press play and jump to the start, middle and end | Do the beat lines sit on the kick drums? | Yes, one of each |
-| 6 | Press pads A to E | Does each jump where the music changes? Do you see the names Intro, Drop, Break, Drop 2 and Outro? | Yes, the pad screen |
+| 6 | Press pads A to E | Does each jump where the music changes? Do you see the names Intro, Groove, Build, Drop and Outro? | Yes, the pad screen |
 | 7 | Do steps 3 to 6 on tracks 2 to 6 | Anything different from track 1? Track 3 has no picture, and that is fine | Only if something looks wrong |
 | 8 | On track 5, jump around and set a 4-beat loop | Any stutter, skip or wrong place? | No |
 | 9 | Search for the accented artist name on track 6 | Is it found? Does the name look right? | Yes |
