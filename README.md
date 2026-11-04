@@ -11,6 +11,7 @@ Drop a folder of music on the window, check the results, and press Apply.
 - **Cue points:** hot cues A to H, memory cues, loops and cue comments for rekordbox.
 - **Waveforms, phrases, loudness and vocals:** a coloured waveform per track, its phrases (Intro, Verse, Build, Drop, Chorus, Groove, Break, Bridge, Outro), its loudness, and a hint of where the vocals are.
 - **Track list:** search and filter it, sort it by several columns, choose its columns and row height, and press Space to hear the selected track.
+- **Player bar:** one player along the bottom of the window, as in any media player, for whatever plays: a track, the track editor, a transition or the live set. Space and your keyboard's media keys work it too.
 - **Track editor:** hear a track, and set its beat grid, cues and phrases by ear.
 - **Automix:** builds a set from your tracks in an order that mixes, lets you hear each transition, plays the set live as one mix, or renders it to one file (new, see below).
 - **Library:** playlists, folders, matchlists and favourites, with rating, colour, genre, label, year and My Tag, imported from rekordbox, Apple Music or playlist files if you like.
@@ -109,10 +110,14 @@ Run Pat In Key on new tracks before you import them, and for tracks already in y
 5. **Check the table.** A flag in the **Check** column marks a track worth a listen; press the **?** beside that heading for what each flag means. Press Space to hear the selected track, and Space again to pause it. Double-click a title to fix it, or select the track and press Return on a Mac or F2 on Windows. The artist sits beside the title: double-click it to fix it, or where it says *Add artist*.
 6. **Press Apply.** A message says what is about to change, and the line under the heading then says what Apply did. **Undo last Apply**, the round arrow beside **Export to USB...**, puts the old names and tags back.
 
-![Settings: key format, BPM range, background, file names, what Apply does and the rekordbox collection](images/09-settings.png)
+![Settings: key format, BPM range, background, audio output, file names, what Apply does and the rekordbox collection](images/09-settings.png)
 
 **Background** in **Settings** picks what sits behind the window: **Album art**, the selected track's cover blurred, or a plain **Dark** or **Light** theme.
 With Reduce Transparency or Increase Contrast on (Mac), or Transparency effects off or a contrast theme on (Windows), the app uses a solid background, and the contrast settings also make text and edges stronger.
+
+**Audio output** in **Settings** is where Pat In Key plays.
+**Same as system** plays where your computer plays, and moves there while a track plays when you connect AirPods or headphones.
+Choose a device instead to always play on it; while it isn't connected, the sound plays where your computer plays, and Settings says so.
 
 ![The table after Apply, with each track's cues ready for rekordbox](images/04-applied.png)
 
@@ -212,7 +217,7 @@ It weighs each step on key (round the Camelot wheel), tempo, energy, how alike t
 - **Find a bridge:** double-click a step's mark to list tracks that could go between those two.
 - **Locked in place and Regenerate:** right-click a track and tick **Locked in place** to keep it where it is, then press **Regenerate** for another order around it.
 - **Preview transition:** hear any step of the set before you play it out. Each mix starts and ends on the music's phrases, and it picks a style per pair: a bass swap, a filter sweep, an echo-out, a hard cut, a double drop or a loop out. Change the style or length, and nudge the incoming track by a beat or a few milliseconds, if your ears say so. What you set is kept.
-- **Play live:** plays the whole set as one continuous mix, from the selected track or the top. Skip mixes into the next track at the next phrase, and you can reorder the playlist while it plays.
+- **Play live:** plays the whole set as one continuous mix, from the selected track or the top. **Next** on the player bar mixes into the next track at the next phrase, and you can reorder the playlist while it plays.
 - **Export mix...:** renders the whole set to one MP3, FLAC or WAV file, or writes it to rekordbox with a memory cue at each mix in, mix out and bass swap.
 
 **It is new.** Automix plans every mix from the analysis and lines up the kicks by listening to each blend, but few of its mixes have been judged by ear yet.
@@ -228,7 +233,7 @@ The back arrow or Esc goes back to the table.
 
 The editor's buttons show icons, as a player's do. Hover over one for its name and key.
 
-- **Play**, the round white button, runs the track, and Space plays or pauses. Click the waveform to move the playhead, and zoom with the magnifier buttons or **+** and **-**. What has already played is dimmed.
+- **Play**, the round white button in the player bar at the bottom of the window, runs the track, and Space plays or pauses. **Previous** and **Next** beside it open the track above or below. Click the waveform to move the playhead, and zoom with the magnifier buttons or **+** and **-**. What has already played is dimmed.
 - **Click**, the metronome button, adds a metronome, so you can hear whether the grid sits on the beat.
 - **BPM**, **÷2**, **×2**, **Tap**, the two arrows (5 ms earlier or later), **Beat here**, **Bar here** and **Turns** fix the grid.
 - A pink band along the top of the whole-track strip marks where the tempo drifts, as a warning not to mix there. It is stronger the further the tempo leaves the track's BPM, and hovering over it says the tempos and times.
@@ -294,6 +299,7 @@ Apply first to keep any names you fixed.
 After updating to 1.4.0, each track is analysed once more from its audio the first time it shows in the table, when you add it or open a playlist or the Collection that holds it.
 This finds bar one, phrases and sections better, which Automix mixes on.
 Open **Collection** once to do your whole library in one go.
+After updating from 1.4.0 to 1.4.1, each track is worked out once more from that analysis, in about a tenth of a second a track, without decoding the audio.
 
 To look for an update yourself, choose **Check for updates** in the **Pat In Key** menu on a Mac, or the **Help** menu on Windows.
 **Check for updates at launch**, in the same menu, turns the automatic look off.
