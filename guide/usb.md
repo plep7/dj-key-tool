@@ -15,7 +15,14 @@ It also has a page to send a friend who tries it on their player.
 
 The button sits beside **Apply**.
 It writes the table's tracks, with their grids, cues, waveforms and phrases.
+Your My Tags go on too, so a player's My Tag filter can list them.
 Tracks a player can't play (Opus, Ogg, WMA) stay off the stick, and the dialog tells you why.
+
+## Cues back from a stick
+
+Set or move a cue on a player, then choose **Tracks > Read cues back from a stick...**.
+It lists each track whose cues the player changed, in words, and takes only the ones you tick.
+**History** in the editor takes them back again.
 
 ## Your stick is safe
 

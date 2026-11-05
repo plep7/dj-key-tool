@@ -39,6 +39,10 @@ Hover over it to see the tempos and times.
 
 - Add, move and name cues.
 - Cut, relabel or clear phrases.
+  Drag the line between two phrases to move it, or onto the next line to combine them.
+  J combines the phrase at the playhead with the next one.
+- Under **Type**, **Fill-in** marks the last beats of a phrase as a fill into the next one, as rekordbox does.
+  Fill-ins go onto a USB stick too.
 - The eight pads A to H under the waveform hold the hot cues.
   Click a pad, or press **1** to **8**, to jump to its cue.
   On an empty pad, that sets a cue instead.
@@ -47,6 +51,8 @@ Hover over it to see the tempos and times.
   The colour goes to rekordbox and onto a USB stick.
 - A yellow line along the foot of the waveform shows where there's a voice.
   It's a hint, not a promise.
+- A track split into [stems](automix.md#stems) gets memory cues named **Vocal in**, **Vocal out** and **Breakdown**.
+  They're a hint too, and they never take a pad.
 
 ## Undo
 

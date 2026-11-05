@@ -55,6 +55,7 @@ They show in the table and go to rekordbox.
   It reads what a CDJ or XDJ remembers playing from a rekordbox stick too (`PIONEER/rekordbox/export.pdb`).
   Each set goes into **History**, by date, and counts towards its tracks' plays.
   You'll see them in the **Plays** column, which you can show from **View > Columns**.
+  A matchlist can filter on them too, as **DJ Play Count**.
   Importing the same history again doesn't count it twice.
 - **Watch folders and Incoming:** tick **Watch for new tracks** in **Settings**.
   Any track that lands in your watch folder then joins your library by itself, gets analysed, and waits in **Incoming**.
@@ -81,12 +82,15 @@ They show in the table and go to rekordbox.
 
 - **Related tracks:** the **Related tracks** tab, over the right of the table, opens a panel beside it.
   It lists what goes with the selected track, such as tracks that mix in key or sit near its tempo.
+  It can also go by a shared My Tag, the same remixer or comment, or tracks played near it in your sets.
   **Hot cue banks** open there too.
   Press the tab again, or the panel's X, to close it.
 - **Track suggestion:** the **Track suggestion** tab lists what to play next, as rekordbox does.
   **Collection Radar** finds tracks that sound like it.
   You can also go by **Era**, **Mood** or **Association**, which means the same artist, remixer, label or album.
   **Filters...** narrows Collection Radar to a BPM range, a key range, or tracks with or without vocals.
+  **Mashup** finds tracks whose acapella fits over this one's instrumental, or the other way round.
+  It's a lead to listen to, not a promise.
 
 ## Activity
 
