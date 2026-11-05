@@ -13,6 +13,7 @@ Drop a folder of music on the window, check the results, and press Apply.
 - **Grids, cues and phrases:** you get a beat grid, hot cues, memory cues and phrases for rekordbox, plus a coloured waveform and a hint of where the vocals are.
 - **Library:** keep playlists, folders and matchlists, and import them from rekordbox, Apple Music or playlist files.
 - **Automix:** build a set in an order that mixes, hear each transition, play it live or render it to one file.
+- **Stems:** split a track into vocal, drums, bass and the rest, for vocal-over mixes, muting a stem live, and acapella or instrumental files.
 - **Out to players and apps:** write a USB stick for CDJ and XDJ players with no rekordbox needed, or sync your playlists to Serato, Traktor or Engine DJ.
 
 It reads MP3, WAV, AIFF, FLAC, M4A/AAC, Ogg and Opus.

@@ -69,7 +69,7 @@ Otherwise rekordbox swaps the key for its own.
 
 ## Settings worth a look
 
-![Settings: key format, BPM range, background, audio output, file names, what Apply does and the rekordbox collection](../images/09-settings.png)
+![Settings: key format, BPM range, background, audio output, file names, what Apply does, the rekordbox collection, watch folders and stems](../images/09-settings.png)
 
 **Background** picks what sits behind the window.
 **Album art** shows the selected track's cover, blurred.

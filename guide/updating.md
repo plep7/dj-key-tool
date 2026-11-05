@@ -29,15 +29,13 @@ It's in the **Pat In Key** menu on a Mac, and the **Help** menu on Windows.
 If the app sits in a folder it can't write to, it says so.
 It offers you the download page instead, so you can grab the new version by hand.
 
-## After updating to 1.4.0 or 1.4.1
+## After updating to 1.5.0
 
-After updating to 1.4.0, each track gets analysed once more from its audio.
+After updating to 1.5.0, each track gets analysed once more from its audio.
 That happens the first time the track shows in the table: when you add it, or open a playlist or the Collection that holds it.
-This finds bar one, phrases and sections better, and Automix mixes on those.
+It reads each key at the track's own tuning, and gets the grid and phrases right on more tracks.
 Open **Collection** once to do your whole library in one go.
-
-After updating from 1.4.0 to 1.4.1, each track gets worked out once more from that analysis.
-It takes about a tenth of a second a track, without decoding the audio.
+Grids, cues and phrases on tracks you locked in the editor stay as you set them.
 
 ## Uninstalling
 
