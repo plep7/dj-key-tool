@@ -10,7 +10,7 @@ This page is for the person making the sticks.
 Your friends never need Pat In Key.
 You make each stick and hand it over.
 
-![Pat In Key with the six test tracks](../usb-test-kit/01-tracks.png)
+![Pat In Key with the six test tracks](01-tracks.png)
 
 ## What you need
 
@@ -52,7 +52,7 @@ All six are 44.1 kHz.
 4. Click your stick in the list.
    Pat In Key never chooses one for you, even when only one is plugged in.
 
-   ![The export dialog with a stick chosen](../usb-test-kit/02-export.png)
+   ![The export dialog with a stick chosen](02-export.png)
 
 5. Check the name and size, tick **Yes, write to** that stick, and press **Export**.
 6. Wait for it to finish.
@@ -60,7 +60,7 @@ All six are 44.1 kHz.
 
 If a stick gets refused, the dialog says why, and nothing on the stick has changed.
 
-![A stick with a rekordbox library on it is refused](../usb-test-kit/03-refused.png)
+![A stick with a rekordbox library on it is refused](03-refused.png)
 
 The command line does the same job:
 
